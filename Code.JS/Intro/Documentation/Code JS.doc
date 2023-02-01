@@ -1,0 +1,27 @@
+CHAPTER ONE
+
+INTRODUCTION
+
+Hi everyone, starting with an introduction, I built a mini framework for web frontend engineers with basic knowledge of HTML5, CSS3 & JavaScript. I called it Code JS. This framework allows you to build, design and maintain frontend websites & applications, easier & a bit faster. This framework is not a large scale type like React, Angular & Vue, it is rather a mini, smaller sized framework, meant mostly for people who have the basic knowledge of HTML, CSS & JS and no knowledge or interest in the major frameworks, if they wanna save more time and build faster. 
+
+REQUIREMENTS
+
+Just get a good code editor like VS Code, Sublime Text, or Brackets for writing code, and good browsers like Firefox, Chrome & Edge. My suggestions are VS Code for coding & Chrome or Edge if you wanna use the voice_output() function, if not, then use Firefox cos it will work properly without hang ups like Chrome browser.
+
+OVERVIEW
+
+There is a method for using Code JS. In the template folder, the main index page is app.htm. In the CSS folder, all your CSS variables can be placed in the root.css folder, while when creating an external stylesheet, you?ll have to import it to all.css for it to be effective. Only modify root.css for your variables which can be used in all your new stylesheets, all.css for connecting all your new stylesheets and other kinds of CSS files such as Font Awesome, do not modify any other CSS files that have been created to support the framework one way or another. All CSS files must go into the CSS folder, as well as JavaScript files that must be stored in JS folder. All external pages for your website or web app must be stored in the pages folder, and files should be stored in the files folder. You don?t need to add external CSS link to the app or index files. And for the JS files, only add ?<script src=?js/do not touch/scripts.js?></script>? in between the engine tags which we?ll later discuss.
+
+THE FOUNDATIONS
+
+It?s all about HTML5, CSS3 & JS. But the starting and finishing points could be quite different. For example, in Code JS, the index file begins with ?<!DOCTYPE html>? as every HTML coding begins. Then you create your application opening and closing tags, ?<application></application>?. As you can see, you don?t need to go through all the stress of writing:
+<!DOCTYPE html>
+<html>
+<head>
+<title> My App </title>
+</head>
+<body>
+</body>
+</html>
+
+Instead

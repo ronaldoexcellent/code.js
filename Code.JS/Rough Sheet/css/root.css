@@ -1,0 +1,15 @@
+/* Styles */
+/* You can add variables to :root */
+
+@import url('all.css');
+
+:root {
+	--full: 100%;
+	--half: 50%;
+	--cen: center;
+	--blk: block;
+	--o: 0;
+	--null: none;
+	--glue: fixed;
+	--auto-align-padding: 3%;
+}
