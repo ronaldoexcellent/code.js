@@ -1,0 +1,1 @@
+const application = document.querySelector('application'); const app = {name : application.getAttribute('name'), logo : "<img id='sitelogo' src='" + application.getAttribute('logo') + "' />", author : document.querySelector('meta-name').getAttribute('author'), copyright : d.year()};
