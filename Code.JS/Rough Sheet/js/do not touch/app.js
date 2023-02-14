@@ -1,1 +1,0 @@
-var application = document.querySelector('application'); var app = {name : application.getAttribute('name'), logo : "<img id='sitelogo' src='" + application.getAttribute('logo') + "' />", author : document.querySelector('meta-name').getAttribute('author'), copyright : document.querySelector('meta-name').getAttribute('copyright')};
